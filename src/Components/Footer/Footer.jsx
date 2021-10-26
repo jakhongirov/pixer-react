@@ -32,10 +32,10 @@ function Footer(){
                            <a className="left-item-link" href="#portfolio" >Portfolio</a>
                         </li>
                         <li className="left-item">
-                           <a className="left-item-link" href="./jamoa.html" target="_blank">Jamoa</a>
+                           <a className="left-item-link" href="./jamoa.html">Jamoa</a>
                         </li>
                         <li className="left-item">
-                           <a className="left-item-link" href="./blog.html" target="_blank">Blog</a>
+                           <a className="left-item-link" href="./blog.html">Blog</a>
                         </li>
                         <li className="left-item">
                            <a className="left-item-link" href="#kontakt">Kontaktlar</a>
@@ -48,13 +48,13 @@ function Footer(){
                         </h3>
                         <ul className="right-list">
                            <li className="right-item">
-                              <a className="right-item-link" href="https://telegram.org/" target="_blank">Telegram</a>
+                              <a className="right-item-link" href="https://telegram.org/">Telegram</a>
                            </li>
                            <li className="right-item">
-                              <a className="right-item-link" href="https://www.instagram.com/" target="_blank">Facebook</a>
+                              <a className="right-item-link" href="https://www.instagram.com/">Facebook</a>
                            </li>
                            <li className="right-item">
-                              <a className="right-item-link" href="https://www.facebook.com/" target="_blank">Instagram</a>
+                              <a className="right-item-link" href="https://www.facebook.com/">Instagram</a>
                            </li>
                         </ul>
                      </li>
