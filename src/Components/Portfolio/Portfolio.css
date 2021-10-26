@@ -1,0 +1,172 @@
+.portfolio{
+   margin-bottom: 56px;
+}
+
+.portfolio-heading{
+   margin-top: 0;
+   margin-bottom: 16px;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000; 
+}
+
+.portfolio-paragaraph{
+   width: 719px;
+   margin-top: 0;
+   margin-bottom: 14px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #000000;
+}
+
+.portfolio-lsit{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.portfolio-item{
+   position: relative;
+   width: 832px;
+   height: 278px;
+   margin-top: 125px;
+}
+
+.portfolio-item-heading{
+   margin-top: 0;
+   margin-bottom: 8px;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+   color: #000000;
+}
+
+.portfolio-item-paragraph{
+   width: 719px;
+   margin: 0;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.portfolio-item:nth-child(2n+1){
+   margin-left: 520px;
+}
+
+.portfolio-item:nth-child(2n){
+   margin-left: 170px;
+}
+
+.portfolio-item:nth-child(2n)::before{
+   order: 1;
+}
+
+.portfolio-item:nth-child(1)::before{
+   position: absolute;
+   width: 300px;
+   height: 278px;
+   left: -335px;
+   top: -100px;
+   display: inline-block;
+   background-image: url("../../Assets/image/step-illlustration.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.portfolio-item:nth-child(2)::before{
+   position: absolute;
+   width: 300px;
+   height: 225px;
+   right: -80px;
+   top: -100px;
+   display: inline-block;
+   background-image: url("../../Assets/image/step-illlustration-two.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.portfolio-item:nth-child(3)::before{
+   position: absolute;
+   width: 300px;
+   height: 259px;
+   left: -335px;
+   top: -100px;
+   display: inline-block;
+   background-image: url("../../Assets/image/step-illustration-three.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.portfolio-item:nth-child(4)::before{
+   position: absolute;
+   width: 300px;
+   height: 171px;
+   right: -80px;
+   top: -60px;
+   display: inline-block;
+   background-image: url("../../Assets/image/step-illustration-four.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.portfolio-item:nth-child(5)::before{
+   position: absolute;
+   width: 300px;
+   height: 232px;
+   left: -335px;
+   top: -100px;
+   display: inline-block;
+   background-image: url("../../Assets/image/step-illustration-five.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.portfolio-link{
+   width: 167px;
+   height: 40px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 8px 16px;
+   text-decoration: none;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   background-color: #00BAFC;
+   border-radius: 5px;
+}
+
+.portfolio-link:hover{
+   color: #FFFFFF;
+   background-color: rgba(0, 186, 252, 0.8);
+   border-radius: 5px;
+}
+
+.portfolio-link:active{
+   color: #FFFFFF;
+   background-color: rgba(0, 186, 252, 0.6);
+   border-radius: 5px
+}

@@ -1,0 +1,178 @@
+.footer{
+   background-color: #191919;
+}
+
+.kontakt-page{
+   display: flex;
+   padding-top: 56px;
+}
+
+.kontakt-left{
+   width: 320px;
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+.kontakt-left-haeding-link{
+   display: inline-block;
+   margin-top: 0;
+   margin-bottom: 16px;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.kontakt-left-paragaraph-link{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.kontakt-list{
+   display: flex;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.kontakt-item{
+   margin-right: 87px;
+}
+
+.kontakt-heading-link{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.left-list{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.left-item{
+   margin-bottom: 8px;
+}
+
+.left-item-link{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.left-item-link:hover{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: #00BAFC;
+}
+
+.left-item-link:active{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: #00BAFC;
+   opacity: 0.6;
+}
+
+.right-list{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.right-item{
+   position: relative;
+   padding-left: 30px;
+   padding-bottom: 8px;
+}
+
+.right-item:nth-child(1)::before{
+   position: absolute;
+   width: 22px;
+   height: 24px;
+   top: 0;
+   left: 0;
+   display: inline-block;
+   background-image: url("../../Assets/image/telegram.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.right-item:nth-child(2)::before{
+   position: absolute;
+   width: 22px;
+   height: 24px;
+   top: 0;
+   left: 0;
+   display: inline-block;
+   background-image: url("../../Assets/image/instagram.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.right-item:nth-child(3)::before{
+   position: absolute;
+   width: 22px;
+   height: 24px;
+   top: 0;
+   left: 0;
+   display: inline-block;
+   background-image: url("../../Assets/image/facebook.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.right-item-link{
+   display: inline-block;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.right-item-link:hover{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;  
+   color: #00BAFC;
+}
+
+.right-item-link:active{
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: #00BAFC;
+   opacity: 0.6;
+}
